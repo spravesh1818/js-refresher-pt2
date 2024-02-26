@@ -7,10 +7,3 @@ function multiplicationTable(number, n, mtableData) {
 
   return mtableData;
 }
-
-function displayMultiplicationTable() {
-  let number = document.getElementById("multiplicationInput");
-
-  let tableData = multiplicationTable(number.value, 1000, "");
-  mtable.innerHTML = tableData;
-}
