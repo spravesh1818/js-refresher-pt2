@@ -1,5 +1,5 @@
 // Array of pairs for the card values
-const cardValues = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"];
+const cardValues = ["🍟", "🍢", "🍣", "🍥", "🍧", "🍨", "🍪", "🍫", "🍭", "🍮"];
 
 // Duplicate the values to create matching pairs
 const cardPairs = [...cardValues, ...cardValues];
